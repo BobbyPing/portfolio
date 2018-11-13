@@ -169,7 +169,7 @@ nav ul li{
     height: 400px;
     width: 650px;
     object-fit: scale-down;
-    padding-left: 100px;
+    padding-left: 75px;
     transition: .75s;
 }
 
@@ -210,6 +210,25 @@ nav ul li{
     font-family: 'Open Sans', sans-serif;
     padding-top: 50px;
     padding-left: 200px;
+}
+
+.square > .img-wrapper5 img{
+    height: 400px;
+    width: 650px;
+    object-fit: scale-down;
+    padding-right: 100px;
+    transition: .75s;
+}
+
+.square> .square-text-wrapper5{
+    width: 350px;
+    height: 400px;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
 }
 
 .hero-section {
