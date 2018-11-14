@@ -129,10 +129,6 @@ nav ul li{
     justify-content: center;
 }
 
-/*.squares-wrapper > .squares {
-    width: 1000px;
-}*/
-
 .squares-wrapper > .squares > .square {
     display: grid;
     grid-template-columns: 1fr 1fr;
