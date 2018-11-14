@@ -38,6 +38,12 @@ body{
     align-items: center;
     justify-content: center;
 }
+.work-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .square {
     width: 100vw;
