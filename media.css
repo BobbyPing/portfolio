@@ -1,32 +1,26 @@
 @media (max-width: 615px) {
 
-body{
-    background-size: 100% 100%;
+label {
+    display: block;
+    cursor: pointer;
 }
 
-.mini-logo {
-    width: 100px;
+.menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.menu a {
+    display: block;
+    background:rgba(0,0,0,0.35);
+    border-bottom: 1px solid rgba(0,0,0,0.35);
     margin: 0;
 }
 
-
-
-.nav-wrapper {
-    flex-direction: column;
-    height: 100%;
-    width: 137px;
-    background:rgba(0,0,0,0.75);
-    margin: 0,0,0,0;
+#toggle:checked + .menu {
+    display: block;
 }
-
-.navbar{
-    width: 200px;
-}
-
-.links-wrapper {
-    flex-direction: column;
-    margin-bottom: 20px;
-    }
 
 .about {
     width: 100%
@@ -165,6 +159,7 @@ body{
     height: 200px;
     width: 350px;
 
+}
 }
 
 

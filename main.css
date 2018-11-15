@@ -18,59 +18,41 @@ body {
 
 .navbar {
     position: fixed;
-    height: 60px;
-    width: 100vw;
-    margin: -8px;
-    transition: 1s;
+    right: 0;
+}
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    right: 0;
 }
 
-.nav-wrapper {
-    display: flex;
-    justify-content: flex-end;
-}   
-
-.nav-link {
-    margin-right: 60px;  
+.menu {
+    margin: 0 30px 0 0;
 }
 
-.nav-link a{
+.menu a {
+    clear: right;
     text-decoration: none;
-    font-family: 'Merriweather', serif;
     color: white;
-    transition: .75s;
+    margin: 0 10px;
+    line-height: 70px;
 }
 
-.nav-link a:hover {
-    letter-spacing: 2px;
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+    width: 26px;
+    float: right;
+    color: rgba(248, 245, 245, 0.30);
 }
 
-nav ul{
-    list-style:none;
-    display:inline;
-    padding:7px 7px;
-    background:transparent ;
-    position:fixed;
+#toggle {
+    display: none;
 }
 
-nav ul li{
-    display:inline;
-    padding:10px 10px;
-}
-
-.spacer{
-    height:50px;
-}
-
-.navbar img{
-    height: 30px;
-    width: 30px;
-    transition: 1.5s;
-}
-
-.navbar img:hover{
-    box-shadow: 1px 1px white;
-    opacity: .1;
-}
 .header {
     display: flex;
     flex-direction: column;
